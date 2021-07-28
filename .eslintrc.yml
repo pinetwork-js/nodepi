@@ -1,0 +1,13 @@
+root: true
+extends:
+  - '@pinetwork-js'
+  - prettier
+plugins:
+  - prettier
+rules:
+  prettier/prettier: error
+env:
+  node: true
+  es2020: true
+parserOptions:
+  project: tsconfig.json
