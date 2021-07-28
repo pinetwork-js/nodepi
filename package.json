@@ -15,5 +15,6 @@
   "bugs": {
     "url": "https://github.com/PiNetwork-js/backend-client/issues"
   },
-  "homepage": "https://github.com/PiNetwork-js/backend-client#readme"
+  "homepage": "https://github.com/PiNetwork-js/backend-client#readme",
+  "packageManager": "yarn@3.0.0"
 }
