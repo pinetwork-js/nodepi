@@ -1,0 +1,19 @@
+{
+  "name": "@pinetwork-js/backend-client",
+  "version": "0.0.0",
+  "description": "A backend client for interacting with the Pi Network Platform API.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PiNetwork-js/backend-client.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PiNetwork-js/backend-client/issues"
+  },
+  "homepage": "https://github.com/PiNetwork-js/backend-client#readme"
+}
