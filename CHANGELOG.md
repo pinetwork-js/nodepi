@@ -1,5 +1,13 @@
 # Changelog
 
+### [0.1.1](https://www.github.com/PiNetwork-js/nodepi/compare/v0.1.0...v0.1.1) (2021-08-12)
+
+
+### Bug Fixes
+
+* gh-pages docs path ([f4162ae](https://www.github.com/PiNetwork-js/nodepi/commit/f4162aea87e043c7071f58a0482a2bc05c3d067a))
+* LICENSE path in README ([7b772a4](https://www.github.com/PiNetwork-js/nodepi/commit/7b772a49ade987241591b571455ad1edb60071e9))
+
 ## 0.1.0 (2021-08-12)
 
 
