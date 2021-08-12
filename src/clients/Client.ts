@@ -5,7 +5,7 @@ import { PaymentManager } from '../structures/managers/platform/PaymentManager';
 import { DeepPartial } from '../utils/types';
 import { StellarClient, StellarOptions } from './StellarClient';
 
-interface ClientOptions {
+export interface ClientOptions {
 	/**
 	 * HTTP options for interacting with the Pi Network Platform API.
 	 */
