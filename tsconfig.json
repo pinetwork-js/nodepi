@@ -6,7 +6,9 @@
 		"strict": true,
 		"target": "ESNext",
 		"lib": ["ESNext"],
-		"outDir": "build"
+		"outDir": "build",
+		"sourceMap": true,
+		"declaration": true
 	},
 	"include": ["src/**/*.ts"]
 }
