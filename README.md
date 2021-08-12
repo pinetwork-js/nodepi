@@ -65,8 +65,10 @@ client.stellar.on('operation', (operation) => {
 client.stellar.on('transaction', (transaction) => {
 	console.log('New transaction', transaction)
 });
+```
 
 ## Links
 
+- [Documentation](https://pinetwork-js.github.io/nodepi)
 - [GitHub](https://github.com/PiNetwork-js/nodepi)
 - [NPM](https://www.npmjs.com/package/@pinetwork-js/nodepi)
