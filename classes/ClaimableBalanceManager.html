@@ -1,0 +1,399 @@
+<!doctype html>
+<html class="default no-js">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>ClaimableBalanceManager | @pinetwork-js/nodepi</title>
+	<meta name="description" content="Documentation for @pinetwork-js/nodepi">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../assets/css/main.css">
+	<script async src="../assets/js/search.js" id="search-script"></script>
+</head>
+<body>
+<header>
+	<div class="tsd-page-toolbar">
+		<div class="container">
+			<div class="table-wrap">
+				<div class="table-cell" id="tsd-search" data-index="../assets/js/search.json" data-base="..">
+					<div class="field">
+						<label for="tsd-search-field" class="tsd-widget search no-caption">Search</label>
+						<input id="tsd-search-field" type="text" />
+					</div>
+					<ul class="results">
+						<li class="state loading">Preparing search index...</li>
+						<li class="state failure">The search index is not available</li>
+					</ul>
+					<a href="../index.html" class="title">@pinetwork-js/nodepi</a>
+				</div>
+				<div class="table-cell" id="tsd-widgets">
+					<div id="tsd-filter">
+						<a href="#" class="tsd-widget options no-caption" data-toggle="options">Options</a>
+						<div class="tsd-filter-group">
+							<div class="tsd-select" id="tsd-filter-visibility">
+								<span class="tsd-select-label">All</span>
+								<ul class="tsd-select-list">
+									<li data-value="public">Public</li>
+									<li data-value="protected">Public/Protected</li>
+									<li data-value="private" class="selected">All</li>
+								</ul>
+							</div>
+							<input type="checkbox" id="tsd-filter-inherited" checked />
+							<label class="tsd-widget" for="tsd-filter-inherited">Inherited</label>
+							<input type="checkbox" id="tsd-filter-externals" checked />
+							<label class="tsd-widget" for="tsd-filter-externals">Externals</label>
+						</div>
+					</div>
+					<a href="#" class="tsd-widget menu no-caption" data-toggle="menu">Menu</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="tsd-page-title">
+		<div class="container">
+			<ul class="tsd-breadcrumb">
+				<li>
+					<a href="../modules.html">@pinetwork-js/nodepi</a>
+				</li>
+				<li>
+					<a href="ClaimableBalanceManager.html">ClaimableBalanceManager</a>
+				</li>
+			</ul>
+			<h1>Class ClaimableBalanceManager</h1>
+		</div>
+	</div>
+</header>
+<div class="container container-main">
+	<div class="row">
+		<div class="col-8 col-content">
+			<section class="tsd-panel tsd-hierarchy">
+				<h3>Hierarchy</h3>
+				<ul class="tsd-hierarchy">
+					<li>
+						<a href="BaseManager.html" class="tsd-signature-type" data-tsd-kind="Class">BaseManager</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-symbol">typeof </span><a href="ClaimableBalance.html" class="tsd-signature-type" data-tsd-kind="Class">ClaimableBalance</a><span class="tsd-signature-symbol">&gt;</span>
+						<ul class="tsd-hierarchy">
+							<li>
+								<span class="target">ClaimableBalanceManager</span>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</section>
+			<section class="tsd-panel-group tsd-index-group">
+				<h2>Index</h2>
+				<section class="tsd-panel tsd-index-panel">
+					<div class="tsd-index-content">
+						<section class="tsd-index-section ">
+							<h3>Constructors</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-constructor tsd-parent-kind-class tsd-is-overwrite"><a href="ClaimableBalanceManager.html#constructor" class="tsd-kind-icon">constructor</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section ">
+							<h3>Properties</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="ClaimableBalanceManager.html#cache" class="tsd-kind-icon">cache</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="ClaimableBalanceManager.html#client" class="tsd-kind-icon">client</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-protected"><a href="ClaimableBalanceManager.html#extras" class="tsd-kind-icon">extras</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-protected"><a href="ClaimableBalanceManager.html#hold" class="tsd-kind-icon">hold</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="ClaimableBalanceManager.html#stellar" class="tsd-kind-icon">stellar</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section ">
+							<h3>Methods</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-overwrite"><a href="ClaimableBalanceManager.html#add" class="tsd-kind-icon">add</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-overwrite"><a href="ClaimableBalanceManager.html#fetch" class="tsd-kind-icon">fetch</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="ClaimableBalanceManager.html#resolve" class="tsd-kind-icon">resolve</a></li>
+							</ul>
+						</section>
+					</div>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Constructors</h2>
+				<section class="tsd-panel tsd-member tsd-kind-constructor tsd-parent-kind-class tsd-is-overwrite">
+					<a name="constructor" class="tsd-anchor"></a>
+					<h3>constructor</h3>
+					<ul class="tsd-signatures tsd-kind-constructor tsd-parent-kind-class tsd-is-overwrite">
+						<li class="tsd-signature tsd-kind-icon">new <wbr>Claimable<wbr>Balance<wbr>Manager<span class="tsd-signature-symbol">(</span>stellar<span class="tsd-signature-symbol">: </span><a href="StellarClient.html" class="tsd-signature-type" data-tsd-kind="Class">StellarClient</a>, iterable<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-type">ClaimableBalanceRecord</span><span class="tsd-signature-symbol"> | </span><a href="ClaimableBalance.html" class="tsd-signature-type" data-tsd-kind="Class">ClaimableBalance</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="ClaimableBalanceManager.html" class="tsd-signature-type" data-tsd-kind="Class">ClaimableBalanceManager</a></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Overrides <a href="BaseManager.html">BaseManager</a>.<a href="BaseManager.html#constructor">constructor</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/PiNetwork-js/backend-client/blob/9eddd12/src/structures/managers/stellar/ClaimableBalanceManager.ts#L8">src/structures/managers/stellar/ClaimableBalanceManager.ts:8</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>stellar: <a href="StellarClient.html" class="tsd-signature-type" data-tsd-kind="Class">StellarClient</a></h5>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> iterable: <span class="tsd-signature-symbol">(</span><span class="tsd-signature-type">ClaimableBalanceRecord</span><span class="tsd-signature-symbol"> | </span><a href="ClaimableBalance.html" class="tsd-signature-type" data-tsd-kind="Class">ClaimableBalance</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">[]</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="ClaimableBalanceManager.html" class="tsd-signature-type" data-tsd-kind="Class">ClaimableBalanceManager</a></h4>
+						</li>
+					</ul>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Properties</h2>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+					<a name="cache" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagReadonly">Readonly</span> cache</h3>
+					<div class="tsd-signature tsd-kind-icon">cache<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Map</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">, </span><a href="ClaimableBalance.html" class="tsd-signature-type" data-tsd-kind="Class">ClaimableBalance</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> = ...</span></div>
+					<aside class="tsd-sources">
+						<p>Inherited from <a href="BaseManager.html">BaseManager</a>.<a href="BaseManager.html#cache">cache</a></p>
+						<ul>
+							<li>Defined in <a href="https://github.com/PiNetwork-js/backend-client/blob/9eddd12/src/structures/managers/BaseManager.ts#L33">src/structures/managers/BaseManager.ts:33</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>The cache of the manager.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+					<a name="client" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagReadonly">Readonly</span> client</h3>
+					<div class="tsd-signature tsd-kind-icon">client<span class="tsd-signature-symbol">:</span> <a href="Client.html" class="tsd-signature-type" data-tsd-kind="Class">Client</a></div>
+					<aside class="tsd-sources">
+						<p>Inherited from <a href="BaseManager.html">BaseManager</a>.<a href="BaseManager.html#client">client</a></p>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-protected">
+					<a name="extras" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> <span class="tsd-flag ts-flagOptional">Optional</span> <span class="tsd-flag ts-flagReadonly">Readonly</span> extras</h3>
+					<div class="tsd-signature tsd-kind-icon">extras<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">[</span><span class="tsd-signature-symbol">]</span></div>
+					<aside class="tsd-sources">
+						<p>Inherited from <a href="BaseManager.html">BaseManager</a>.<a href="BaseManager.html#extras">extras</a></p>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-protected">
+					<a name="hold" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> <span class="tsd-flag ts-flagReadonly">Readonly</span> hold</h3>
+					<div class="tsd-signature tsd-kind-icon">hold<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">typeof </span><a href="ClaimableBalance.html" class="tsd-signature-type" data-tsd-kind="Class">ClaimableBalance</a></div>
+					<aside class="tsd-sources">
+						<p>Inherited from <a href="BaseManager.html">BaseManager</a>.<a href="BaseManager.html#hold">hold</a></p>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="stellar" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagReadonly">Readonly</span> stellar</h3>
+					<div class="tsd-signature tsd-kind-icon">stellar<span class="tsd-signature-symbol">:</span> <a href="StellarClient.html" class="tsd-signature-type" data-tsd-kind="Class">StellarClient</a></div>
+					<aside class="tsd-sources">
+					</aside>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Methods</h2>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-overwrite">
+					<a name="add" class="tsd-anchor"></a>
+					<h3>add</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-overwrite">
+						<li class="tsd-signature tsd-kind-icon">add<span class="tsd-signature-symbol">(</span>data<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">ClaimableBalanceRecord</span>, cache<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="ClaimableBalance.html" class="tsd-signature-type" data-tsd-kind="Class">ClaimableBalance</a></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Overrides <a href="BaseManager.html">BaseManager</a>.<a href="BaseManager.html#add">add</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/PiNetwork-js/backend-client/blob/9eddd12/src/structures/managers/stellar/ClaimableBalanceManager.ts#L22">src/structures/managers/stellar/ClaimableBalanceManager.ts:22</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Adds the claimable balance to the cache (or return the cached claimable balance, if <code>cache</code> is true).</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>data: <span class="tsd-signature-type">ClaimableBalanceRecord</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>The claimable balance to add.</p>
+									</div>
+								</li>
+								<li>
+									<h5>cache: <span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol"> = true</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>If the claimable balance should be cached (or cached claimable balance patched), <code>true</code> by default.</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="ClaimableBalance.html" class="tsd-signature-type" data-tsd-kind="Class">ClaimableBalance</a></h4>
+							<p>The resolved claimable balance.</p>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-overwrite">
+					<a name="fetch" class="tsd-anchor"></a>
+					<h3>fetch</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-overwrite">
+						<li class="tsd-signature tsd-kind-icon">fetch<span class="tsd-signature-symbol">(</span>id<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, cache<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">boolean</span>, checkCache<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="ClaimableBalance.html" class="tsd-signature-type" data-tsd-kind="Class">ClaimableBalance</a><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Overrides <a href="BaseManager.html">BaseManager</a>.<a href="BaseManager.html#fetch">fetch</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/PiNetwork-js/backend-client/blob/9eddd12/src/structures/managers/stellar/ClaimableBalanceManager.ts#L50">src/structures/managers/stellar/ClaimableBalanceManager.ts:50</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Fetch the claimable balance by its id in the cache or from the Pi Network Stellar API.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>id: <span class="tsd-signature-type">string</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>The claimable balance id to fetch.</p>
+									</div>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> cache: <span class="tsd-signature-type">boolean</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>If the claimable balance should be cached (or cached claimable balance patched), <code>true</code> by default.</p>
+									</div>
+								</li>
+								<li>
+									<h5>checkCache: <span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol"> = true</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>If the claimable balance should be fetched in the cache, <code>true</code> by default.</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="ClaimableBalance.html" class="tsd-signature-type" data-tsd-kind="Class">ClaimableBalance</a><span class="tsd-signature-symbol">&gt;</span></h4>
+							<p>The fetched claimable balance.</p>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+					<a name="resolve" class="tsd-anchor"></a>
+					<h3>resolve</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+						<li class="tsd-signature tsd-kind-icon">resolve<span class="tsd-signature-symbol">(</span>key<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><a href="ClaimableBalance.html" class="tsd-signature-type" data-tsd-kind="Class">ClaimableBalance</a></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Inherited from <a href="BaseManager.html">BaseManager</a>.<a href="BaseManager.html#resolve">resolve</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/PiNetwork-js/backend-client/blob/9eddd12/src/structures/managers/BaseManager.ts#L63">src/structures/managers/BaseManager.ts:63</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Resolves the data by its key from the cache.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>key: <span class="tsd-signature-type">string</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>The data&#39;s key (id, etc.).</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><a href="ClaimableBalance.html" class="tsd-signature-type" data-tsd-kind="Class">ClaimableBalance</a></h4>
+							<p>The cached data or <code>undefined</code> if not found.</p>
+						</li>
+					</ul>
+				</section>
+			</section>
+		</div>
+		<div class="col-4 col-menu menu-sticky-wrap menu-highlight">
+			<nav class="tsd-navigation primary">
+				<ul>
+					<li class=" ">
+						<a href="../modules.html">Exports</a>
+					</li>
+				</ul>
+			</nav>
+			<nav class="tsd-navigation secondary menu-sticky">
+				<ul class="before-current">
+				</ul>
+				<ul class="current">
+					<li class="current tsd-kind-class">
+						<a href="ClaimableBalanceManager.html" class="tsd-kind-icon">Claimable<wbr>Balance<wbr>Manager</a>
+						<ul>
+							<li class=" tsd-kind-constructor tsd-parent-kind-class tsd-is-overwrite">
+								<a href="ClaimableBalanceManager.html#constructor" class="tsd-kind-icon">constructor</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+								<a href="ClaimableBalanceManager.html#cache" class="tsd-kind-icon">cache</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+								<a href="ClaimableBalanceManager.html#client" class="tsd-kind-icon">client</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-protected">
+								<a href="ClaimableBalanceManager.html#extras" class="tsd-kind-icon">extras</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-protected">
+								<a href="ClaimableBalanceManager.html#hold" class="tsd-kind-icon">hold</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="ClaimableBalanceManager.html#stellar" class="tsd-kind-icon">stellar</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-overwrite">
+								<a href="ClaimableBalanceManager.html#add" class="tsd-kind-icon">add</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-overwrite">
+								<a href="ClaimableBalanceManager.html#fetch" class="tsd-kind-icon">fetch</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+								<a href="ClaimableBalanceManager.html#resolve" class="tsd-kind-icon">resolve</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<ul class="after-current">
+				</ul>
+			</nav>
+		</div>
+	</div>
+</div>
+<footer class="with-border-bottom">
+	<div class="container">
+		<h2>Legend</h2>
+		<div class="tsd-legend-group">
+			<ul class="tsd-legend">
+				<li class="tsd-kind-constructor tsd-parent-kind-class"><span class="tsd-kind-icon">Constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-class"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class"><span class="tsd-kind-icon">Method</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-constructor tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited method</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-interface"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-interface"><span class="tsd-kind-icon">Method</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected method</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private method</span></li>
+			</ul>
+		</div>
+	</div>
+</footer>
+<div class="container tsd-generator">
+	<p>Generated using <a href="https://typedoc.org/" target="_blank">TypeDoc</a></p>
+</div>
+<div class="overlay"></div>
+<script src="../assets/js/main.js"></script>
+</body>
+</html>

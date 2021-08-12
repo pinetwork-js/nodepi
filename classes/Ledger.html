@@ -1,0 +1,710 @@
+<!doctype html>
+<html class="default no-js">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Ledger | @pinetwork-js/nodepi</title>
+	<meta name="description" content="Documentation for @pinetwork-js/nodepi">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../assets/css/main.css">
+	<script async src="../assets/js/search.js" id="search-script"></script>
+</head>
+<body>
+<header>
+	<div class="tsd-page-toolbar">
+		<div class="container">
+			<div class="table-wrap">
+				<div class="table-cell" id="tsd-search" data-index="../assets/js/search.json" data-base="..">
+					<div class="field">
+						<label for="tsd-search-field" class="tsd-widget search no-caption">Search</label>
+						<input id="tsd-search-field" type="text" />
+					</div>
+					<ul class="results">
+						<li class="state loading">Preparing search index...</li>
+						<li class="state failure">The search index is not available</li>
+					</ul>
+					<a href="../index.html" class="title">@pinetwork-js/nodepi</a>
+				</div>
+				<div class="table-cell" id="tsd-widgets">
+					<div id="tsd-filter">
+						<a href="#" class="tsd-widget options no-caption" data-toggle="options">Options</a>
+						<div class="tsd-filter-group">
+							<div class="tsd-select" id="tsd-filter-visibility">
+								<span class="tsd-select-label">All</span>
+								<ul class="tsd-select-list">
+									<li data-value="public">Public</li>
+									<li data-value="protected">Public/Protected</li>
+									<li data-value="private" class="selected">All</li>
+								</ul>
+							</div>
+							<input type="checkbox" id="tsd-filter-inherited" checked />
+							<label class="tsd-widget" for="tsd-filter-inherited">Inherited</label>
+							<input type="checkbox" id="tsd-filter-externals" checked />
+							<label class="tsd-widget" for="tsd-filter-externals">Externals</label>
+						</div>
+					</div>
+					<a href="#" class="tsd-widget menu no-caption" data-toggle="menu">Menu</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="tsd-page-title">
+		<div class="container">
+			<ul class="tsd-breadcrumb">
+				<li>
+					<a href="../modules.html">@pinetwork-js/nodepi</a>
+				</li>
+				<li>
+					<a href="Ledger.html">Ledger</a>
+				</li>
+			</ul>
+			<h1>Class Ledger</h1>
+		</div>
+	</div>
+</header>
+<div class="container container-main">
+	<div class="row">
+		<div class="col-8 col-content">
+			<section class="tsd-panel tsd-comment">
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>Structure representing a Stellar Ledger.</p>
+					</div>
+				</div>
+			</section>
+			<section class="tsd-panel tsd-hierarchy">
+				<h3>Hierarchy</h3>
+				<ul class="tsd-hierarchy">
+					<li>
+						<span class="target">Ledger</span>
+					</li>
+				</ul>
+			</section>
+			<section class="tsd-panel">
+				<h3>Implements</h3>
+				<ul class="tsd-hierarchy">
+					<li><a href="../interfaces/Identifiable.html" class="tsd-signature-type" data-tsd-kind="Interface">Identifiable</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">&gt;</span></li>
+				</ul>
+			</section>
+			<section class="tsd-panel-group tsd-index-group">
+				<h2>Index</h2>
+				<section class="tsd-panel tsd-index-panel">
+					<div class="tsd-index-content">
+						<section class="tsd-index-section ">
+							<h3>Constructors</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-constructor tsd-parent-kind-class"><a href="Ledger.html#constructor" class="tsd-kind-icon">constructor</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section ">
+							<h3>Properties</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="Ledger.html#_effects" class="tsd-kind-icon">$effects</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="Ledger.html#_operations" class="tsd-kind-icon">$operations</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="Ledger.html#_transactions" class="tsd-kind-icon">$transactions</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="Ledger.html#baseFeeInMicropi" class="tsd-kind-icon">base<wbr>Fee<wbr>InMicropi</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="Ledger.html#baseReserveInMicropi" class="tsd-kind-icon">base<wbr>Reserve<wbr>InMicropi</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="Ledger.html#client" class="tsd-kind-icon">client</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="Ledger.html#closedAt" class="tsd-kind-icon">closed<wbr>At</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="Ledger.html#closedTimestamp" class="tsd-kind-icon">closed<wbr>Timestamp</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="Ledger.html#feePool" class="tsd-kind-icon">fee<wbr>Pool</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="Ledger.html#hash" class="tsd-kind-icon">hash</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="Ledger.html#headerXdr" class="tsd-kind-icon">header<wbr>Xdr</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="Ledger.html#id" class="tsd-kind-icon">id</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="Ledger.html#maxTransactionSetSize" class="tsd-kind-icon">max<wbr>Transaction<wbr>Set<wbr>Size</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="Ledger.html#operationCount" class="tsd-kind-icon">operation<wbr>Count</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="Ledger.html#pagingToken" class="tsd-kind-icon">paging<wbr>Token</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="Ledger.html#previousHash" class="tsd-kind-icon">previous<wbr>Hash</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="Ledger.html#protocolVersion" class="tsd-kind-icon">protocol<wbr>Version</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="Ledger.html#sequence" class="tsd-kind-icon">sequence</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="Ledger.html#totalCoins" class="tsd-kind-icon">total<wbr>Coins</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="Ledger.html#transactionCount" class="tsd-kind-icon">transaction<wbr>Count</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="Ledger.html#transactionSetOperationCount" class="tsd-kind-icon">transaction<wbr>Set<wbr>Operation<wbr>Count</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section ">
+							<h3>Methods</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="Ledger.html#_patch" class="tsd-kind-icon">$patch</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="Ledger.html#getEffects" class="tsd-kind-icon">get<wbr>Effects</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="Ledger.html#getOperations" class="tsd-kind-icon">get<wbr>Operations</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="Ledger.html#getTransactions" class="tsd-kind-icon">get<wbr>Transactions</a></li>
+							</ul>
+						</section>
+					</div>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Constructors</h2>
+				<section class="tsd-panel tsd-member tsd-kind-constructor tsd-parent-kind-class">
+					<a name="constructor" class="tsd-anchor"></a>
+					<h3>constructor</h3>
+					<ul class="tsd-signatures tsd-kind-constructor tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">new <wbr>Ledger<span class="tsd-signature-symbol">(</span>client<span class="tsd-signature-symbol">: </span><a href="Client.html" class="tsd-signature-type" data-tsd-kind="Class">Client</a>, data<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">LedgerRecord</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="Ledger.html" class="tsd-signature-type" data-tsd-kind="Class">Ledger</a></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/PiNetwork-js/backend-client/blob/9eddd12/src/structures/ressources/stellar/Ledger.ts#L114">src/structures/ressources/stellar/Ledger.ts:114</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>client: <a href="Client.html" class="tsd-signature-type" data-tsd-kind="Class">Client</a></h5>
+								</li>
+								<li>
+									<h5>data: <span class="tsd-signature-type">LedgerRecord</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="Ledger.html" class="tsd-signature-type" data-tsd-kind="Class">Ledger</a></h4>
+						</li>
+					</ul>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Properties</h2>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="_effects" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> $effects</h3>
+					<div class="tsd-signature tsd-kind-icon">$effects<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">CallCollectionFunction</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">EffectRecord</span><span class="tsd-signature-symbol">&gt;</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/PiNetwork-js/backend-client/blob/9eddd12/src/structures/ressources/stellar/Ledger.ts#L112">src/structures/ressources/stellar/Ledger.ts:112</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Get the effects of the ledger.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="_operations" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> $operations</h3>
+					<div class="tsd-signature tsd-kind-icon">$operations<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">CallCollectionFunction</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">OperationRecord</span><span class="tsd-signature-symbol">&gt;</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/PiNetwork-js/backend-client/blob/9eddd12/src/structures/ressources/stellar/Ledger.ts#L107">src/structures/ressources/stellar/Ledger.ts:107</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Get the operations of the ledger.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="_transactions" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> $transactions</h3>
+					<div class="tsd-signature tsd-kind-icon">$transactions<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">CallCollectionFunction</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">TransactionRecord</span><span class="tsd-signature-symbol">&gt;</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/PiNetwork-js/backend-client/blob/9eddd12/src/structures/ressources/stellar/Ledger.ts#L102">src/structures/ressources/stellar/Ledger.ts:102</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Get the transactions of the ledger.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="baseFeeInMicropi" class="tsd-anchor"></a>
+					<h3>base<wbr>Fee<wbr>InMicropi</h3>
+					<div class="tsd-signature tsd-kind-icon">base<wbr>Fee<wbr>InMicropi<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/PiNetwork-js/backend-client/blob/9eddd12/src/structures/ressources/stellar/Ledger.ts#L77">src/structures/ressources/stellar/Ledger.ts:77</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>The fee the network charges per operation in a transaction.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="baseReserveInMicropi" class="tsd-anchor"></a>
+					<h3>base<wbr>Reserve<wbr>InMicropi</h3>
+					<div class="tsd-signature tsd-kind-icon">base<wbr>Reserve<wbr>InMicropi<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/PiNetwork-js/backend-client/blob/9eddd12/src/structures/ressources/stellar/Ledger.ts#L82">src/structures/ressources/stellar/Ledger.ts:82</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>The reserve the network uses when calculating an account’s minimum balance.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="client" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagReadonly">Readonly</span> client</h3>
+					<div class="tsd-signature tsd-kind-icon">client<span class="tsd-signature-symbol">:</span> <a href="Client.html" class="tsd-signature-type" data-tsd-kind="Class">Client</a></div>
+					<aside class="tsd-sources">
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="closedAt" class="tsd-anchor"></a>
+					<h3>closed<wbr>At</h3>
+					<div class="tsd-signature tsd-kind-icon">closed<wbr>At<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Date</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/PiNetwork-js/backend-client/blob/9eddd12/src/structures/ressources/stellar/Ledger.ts#L57">src/structures/ressources/stellar/Ledger.ts:57</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>The date when the ledger was closed.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="closedTimestamp" class="tsd-anchor"></a>
+					<h3>closed<wbr>Timestamp</h3>
+					<div class="tsd-signature tsd-kind-icon">closed<wbr>Timestamp<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/PiNetwork-js/backend-client/blob/9eddd12/src/structures/ressources/stellar/Ledger.ts#L62">src/structures/ressources/stellar/Ledger.ts:62</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>The timestamp when the ledger was closed.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="feePool" class="tsd-anchor"></a>
+					<h3>fee<wbr>Pool</h3>
+					<div class="tsd-signature tsd-kind-icon">fee<wbr>Pool<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/PiNetwork-js/backend-client/blob/9eddd12/src/structures/ressources/stellar/Ledger.ts#L72">src/structures/ressources/stellar/Ledger.ts:72</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>The sum of all transaction fees.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="hash" class="tsd-anchor"></a>
+					<h3>hash</h3>
+					<div class="tsd-signature tsd-kind-icon">hash<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/PiNetwork-js/backend-client/blob/9eddd12/src/structures/ressources/stellar/Ledger.ts#L27">src/structures/ressources/stellar/Ledger.ts:27</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>A hex-encoded SHA-256 hash of the ledger’s XDR-encoded form.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="headerXdr" class="tsd-anchor"></a>
+					<h3>header<wbr>Xdr</h3>
+					<div class="tsd-signature tsd-kind-icon">header<wbr>Xdr<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/PiNetwork-js/backend-client/blob/9eddd12/src/structures/ressources/stellar/Ledger.ts#L97">src/structures/ressources/stellar/Ledger.ts:97</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>A base64 encoded string of the raw LedgerHeader xdr struct for the ledger.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="id" class="tsd-anchor"></a>
+					<h3>id</h3>
+					<div class="tsd-signature tsd-kind-icon">id<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<p>Implementation of <a href="../interfaces/Identifiable.html">Identifiable</a>.<a href="../interfaces/Identifiable.html#id">id</a></p>
+						<ul>
+							<li>Defined in <a href="https://github.com/PiNetwork-js/backend-client/blob/9eddd12/src/structures/ressources/stellar/Ledger.ts#L17">src/structures/ressources/stellar/Ledger.ts:17</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>The id of the ledger.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="maxTransactionSetSize" class="tsd-anchor"></a>
+					<h3>max<wbr>Transaction<wbr>Set<wbr>Size</h3>
+					<div class="tsd-signature tsd-kind-icon">max<wbr>Transaction<wbr>Set<wbr>Size<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/PiNetwork-js/backend-client/blob/9eddd12/src/structures/ressources/stellar/Ledger.ts#L87">src/structures/ressources/stellar/Ledger.ts:87</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>The maximum number of operations validators have agreed to process in a given ledger. Since Protocol 11, ledger capacity has been measured in operations rather than transactions.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="operationCount" class="tsd-anchor"></a>
+					<h3>operation<wbr>Count</h3>
+					<div class="tsd-signature tsd-kind-icon">operation<wbr>Count<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/PiNetwork-js/backend-client/blob/9eddd12/src/structures/ressources/stellar/Ledger.ts#L47">src/structures/ressources/stellar/Ledger.ts:47</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>The number of operations applied in the ledger.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="pagingToken" class="tsd-anchor"></a>
+					<h3>paging<wbr>Token</h3>
+					<div class="tsd-signature tsd-kind-icon">paging<wbr>Token<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/PiNetwork-js/backend-client/blob/9eddd12/src/structures/ressources/stellar/Ledger.ts#L22">src/structures/ressources/stellar/Ledger.ts:22</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>A cursor value for use in pagination.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="previousHash" class="tsd-anchor"></a>
+					<h3>previous<wbr>Hash</h3>
+					<div class="tsd-signature tsd-kind-icon">previous<wbr>Hash<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/PiNetwork-js/backend-client/blob/9eddd12/src/structures/ressources/stellar/Ledger.ts#L32">src/structures/ressources/stellar/Ledger.ts:32</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>The hash of the ledger immediately preceding the ledger.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="protocolVersion" class="tsd-anchor"></a>
+					<h3>protocol<wbr>Version</h3>
+					<div class="tsd-signature tsd-kind-icon">protocol<wbr>Version<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/PiNetwork-js/backend-client/blob/9eddd12/src/structures/ressources/stellar/Ledger.ts#L92">src/structures/ressources/stellar/Ledger.ts:92</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>The protocol version that the Pi Network Stellar network was running when the ledger was committed.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="sequence" class="tsd-anchor"></a>
+					<h3>sequence</h3>
+					<div class="tsd-signature tsd-kind-icon">sequence<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/PiNetwork-js/backend-client/blob/9eddd12/src/structures/ressources/stellar/Ledger.ts#L37">src/structures/ressources/stellar/Ledger.ts:37</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>The sequence number of the ledger, and the parameter used in Horizon calls that require a ledger number.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="totalCoins" class="tsd-anchor"></a>
+					<h3>total<wbr>Coins</h3>
+					<div class="tsd-signature tsd-kind-icon">total<wbr>Coins<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/PiNetwork-js/backend-client/blob/9eddd12/src/structures/ressources/stellar/Ledger.ts#L67">src/structures/ressources/stellar/Ledger.ts:67</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>The total number of Pi in circulation.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="transactionCount" class="tsd-anchor"></a>
+					<h3>transaction<wbr>Count</h3>
+					<div class="tsd-signature tsd-kind-icon">transaction<wbr>Count<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/PiNetwork-js/backend-client/blob/9eddd12/src/structures/ressources/stellar/Ledger.ts#L42">src/structures/ressources/stellar/Ledger.ts:42</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>The number of transactions in the ledger.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="transactionSetOperationCount" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> transaction<wbr>Set<wbr>Operation<wbr>Count</h3>
+					<div class="tsd-signature tsd-kind-icon">transaction<wbr>Set<wbr>Operation<wbr>Count<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/PiNetwork-js/backend-client/blob/9eddd12/src/structures/ressources/stellar/Ledger.ts#L52">src/structures/ressources/stellar/Ledger.ts:52</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>The total number of operations in the ledger transaction set.</p>
+						</div>
+					</div>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Methods</h2>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="_patch" class="tsd-anchor"></a>
+					<h3>$patch</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">$patch<span class="tsd-signature-symbol">(</span>data<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">LedgerRecord</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/PiNetwork-js/backend-client/blob/9eddd12/src/structures/ressources/stellar/Ledger.ts#L118">src/structures/ressources/stellar/Ledger.ts:118</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>data: <span class="tsd-signature-type">LedgerRecord</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="getEffects" class="tsd-anchor"></a>
+					<h3>get<wbr>Effects</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Effects<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">EffectManager</span><span class="tsd-signature-symbol">&lt;</span><a href="Effect.html" class="tsd-signature-type" data-tsd-kind="Class">Effect</a><span class="tsd-signature-symbol">&lt;</span><a href="../enums/EffectTypeNames.html" class="tsd-signature-type" data-tsd-kind="Enumeration">EffectTypeNames</a><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">EffectType</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/PiNetwork-js/backend-client/blob/9eddd12/src/structures/ressources/stellar/Ledger.ts#L188">src/structures/ressources/stellar/Ledger.ts:188</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Get the effects of the ledger.</p>
+								</div>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">EffectManager</span><span class="tsd-signature-symbol">&lt;</span><a href="Effect.html" class="tsd-signature-type" data-tsd-kind="Class">Effect</a><span class="tsd-signature-symbol">&lt;</span><a href="../enums/EffectTypeNames.html" class="tsd-signature-type" data-tsd-kind="Enumeration">EffectTypeNames</a><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">EffectType</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></h4>
+							<p>A manager for the ledger effects.</p>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="getOperations" class="tsd-anchor"></a>
+					<h3>get<wbr>Operations</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Operations<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="OperationManager.html" class="tsd-signature-type" data-tsd-kind="Class">OperationManager</a><span class="tsd-signature-symbol">&lt;</span><a href="Operation.html" class="tsd-signature-type" data-tsd-kind="Class">Operation</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">OperationResponseType</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">OperationResponseTypeI</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/PiNetwork-js/backend-client/blob/9eddd12/src/structures/ressources/stellar/Ledger.ts#L169">src/structures/ressources/stellar/Ledger.ts:169</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Get the operations of the ledger.</p>
+								</div>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="OperationManager.html" class="tsd-signature-type" data-tsd-kind="Class">OperationManager</a><span class="tsd-signature-symbol">&lt;</span><a href="Operation.html" class="tsd-signature-type" data-tsd-kind="Class">Operation</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">OperationResponseType</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">OperationResponseTypeI</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></h4>
+							<p>A manager for the ledger operations.</p>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="getTransactions" class="tsd-anchor"></a>
+					<h3>get<wbr>Transactions</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Transactions<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="TransactionManager.html" class="tsd-signature-type" data-tsd-kind="Class">TransactionManager</a><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/PiNetwork-js/backend-client/blob/9eddd12/src/structures/ressources/stellar/Ledger.ts#L147">src/structures/ressources/stellar/Ledger.ts:147</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Get the transactions of the ledger.</p>
+								</div>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="TransactionManager.html" class="tsd-signature-type" data-tsd-kind="Class">TransactionManager</a><span class="tsd-signature-symbol">&gt;</span></h4>
+							<p>A manager for the ledger transactions.</p>
+						</li>
+					</ul>
+				</section>
+			</section>
+		</div>
+		<div class="col-4 col-menu menu-sticky-wrap menu-highlight">
+			<nav class="tsd-navigation primary">
+				<ul>
+					<li class=" ">
+						<a href="../modules.html">Exports</a>
+					</li>
+				</ul>
+			</nav>
+			<nav class="tsd-navigation secondary menu-sticky">
+				<ul class="before-current">
+				</ul>
+				<ul class="current">
+					<li class="current tsd-kind-class">
+						<a href="Ledger.html" class="tsd-kind-icon">Ledger</a>
+						<ul>
+							<li class=" tsd-kind-constructor tsd-parent-kind-class">
+								<a href="Ledger.html#constructor" class="tsd-kind-icon">constructor</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+								<a href="Ledger.html#_effects" class="tsd-kind-icon">$effects</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+								<a href="Ledger.html#_operations" class="tsd-kind-icon">$operations</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+								<a href="Ledger.html#_transactions" class="tsd-kind-icon">$transactions</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="Ledger.html#baseFeeInMicropi" class="tsd-kind-icon">base<wbr>Fee<wbr>InMicropi</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="Ledger.html#baseReserveInMicropi" class="tsd-kind-icon">base<wbr>Reserve<wbr>InMicropi</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="Ledger.html#client" class="tsd-kind-icon">client</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="Ledger.html#closedAt" class="tsd-kind-icon">closed<wbr>At</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="Ledger.html#closedTimestamp" class="tsd-kind-icon">closed<wbr>Timestamp</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="Ledger.html#feePool" class="tsd-kind-icon">fee<wbr>Pool</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="Ledger.html#hash" class="tsd-kind-icon">hash</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="Ledger.html#headerXdr" class="tsd-kind-icon">header<wbr>Xdr</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="Ledger.html#id" class="tsd-kind-icon">id</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="Ledger.html#maxTransactionSetSize" class="tsd-kind-icon">max<wbr>Transaction<wbr>Set<wbr>Size</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="Ledger.html#operationCount" class="tsd-kind-icon">operation<wbr>Count</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="Ledger.html#pagingToken" class="tsd-kind-icon">paging<wbr>Token</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="Ledger.html#previousHash" class="tsd-kind-icon">previous<wbr>Hash</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="Ledger.html#protocolVersion" class="tsd-kind-icon">protocol<wbr>Version</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="Ledger.html#sequence" class="tsd-kind-icon">sequence</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="Ledger.html#totalCoins" class="tsd-kind-icon">total<wbr>Coins</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="Ledger.html#transactionCount" class="tsd-kind-icon">transaction<wbr>Count</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="Ledger.html#transactionSetOperationCount" class="tsd-kind-icon">transaction<wbr>Set<wbr>Operation<wbr>Count</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="Ledger.html#_patch" class="tsd-kind-icon">$patch</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="Ledger.html#getEffects" class="tsd-kind-icon">get<wbr>Effects</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="Ledger.html#getOperations" class="tsd-kind-icon">get<wbr>Operations</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="Ledger.html#getTransactions" class="tsd-kind-icon">get<wbr>Transactions</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<ul class="after-current">
+				</ul>
+			</nav>
+		</div>
+	</div>
+</div>
+<footer class="with-border-bottom">
+	<div class="container">
+		<h2>Legend</h2>
+		<div class="tsd-legend-group">
+			<ul class="tsd-legend">
+				<li class="tsd-kind-constructor tsd-parent-kind-class"><span class="tsd-kind-icon">Constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-class"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class"><span class="tsd-kind-icon">Method</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-constructor tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited method</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-interface"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-interface"><span class="tsd-kind-icon">Method</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected method</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private method</span></li>
+			</ul>
+		</div>
+	</div>
+</footer>
+<div class="container tsd-generator">
+	<p>Generated using <a href="https://typedoc.org/" target="_blank">TypeDoc</a></p>
+</div>
+<div class="overlay"></div>
+<script src="../assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,825 @@
+<!doctype html>
+<html class="default no-js">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Transaction | @pinetwork-js/nodepi</title>
+	<meta name="description" content="Documentation for @pinetwork-js/nodepi">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../assets/css/main.css">
+	<script async src="../assets/js/search.js" id="search-script"></script>
+</head>
+<body>
+<header>
+	<div class="tsd-page-toolbar">
+		<div class="container">
+			<div class="table-wrap">
+				<div class="table-cell" id="tsd-search" data-index="../assets/js/search.json" data-base="..">
+					<div class="field">
+						<label for="tsd-search-field" class="tsd-widget search no-caption">Search</label>
+						<input id="tsd-search-field" type="text" />
+					</div>
+					<ul class="results">
+						<li class="state loading">Preparing search index...</li>
+						<li class="state failure">The search index is not available</li>
+					</ul>
+					<a href="../index.html" class="title">@pinetwork-js/nodepi</a>
+				</div>
+				<div class="table-cell" id="tsd-widgets">
+					<div id="tsd-filter">
+						<a href="#" class="tsd-widget options no-caption" data-toggle="options">Options</a>
+						<div class="tsd-filter-group">
+							<div class="tsd-select" id="tsd-filter-visibility">
+								<span class="tsd-select-label">All</span>
+								<ul class="tsd-select-list">
+									<li data-value="public">Public</li>
+									<li data-value="protected">Public/Protected</li>
+									<li data-value="private" class="selected">All</li>
+								</ul>
+							</div>
+							<input type="checkbox" id="tsd-filter-inherited" checked />
+							<label class="tsd-widget" for="tsd-filter-inherited">Inherited</label>
+							<input type="checkbox" id="tsd-filter-externals" checked />
+							<label class="tsd-widget" for="tsd-filter-externals">Externals</label>
+						</div>
+					</div>
+					<a href="#" class="tsd-widget menu no-caption" data-toggle="menu">Menu</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="tsd-page-title">
+		<div class="container">
+			<ul class="tsd-breadcrumb">
+				<li>
+					<a href="../modules.html">@pinetwork-js/nodepi</a>
+				</li>
+				<li>
+					<a href="Transaction.html">Transaction</a>
+				</li>
+			</ul>
+			<h1>Class Transaction</h1>
+		</div>
+	</div>
+</header>
+<div class="container container-main">
+	<div class="row">
+		<div class="col-8 col-content">
+			<section class="tsd-panel tsd-comment">
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>Structure representing a Stellar Transaction.</p>
+					</div>
+				</div>
+			</section>
+			<section class="tsd-panel tsd-hierarchy">
+				<h3>Hierarchy</h3>
+				<ul class="tsd-hierarchy">
+					<li>
+						<span class="target">Transaction</span>
+					</li>
+				</ul>
+			</section>
+			<section class="tsd-panel">
+				<h3>Implements</h3>
+				<ul class="tsd-hierarchy">
+					<li><a href="../interfaces/Identifiable.html" class="tsd-signature-type" data-tsd-kind="Interface">Identifiable</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">&gt;</span></li>
+				</ul>
+			</section>
+			<section class="tsd-panel-group tsd-index-group">
+				<h2>Index</h2>
+				<section class="tsd-panel tsd-index-panel">
+					<div class="tsd-index-content">
+						<section class="tsd-index-section ">
+							<h3>Constructors</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-constructor tsd-parent-kind-class"><a href="Transaction.html#constructor" class="tsd-kind-icon">constructor</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section ">
+							<h3>Properties</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="Transaction.html#_effects" class="tsd-kind-icon">$effects</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="Transaction.html#_operations" class="tsd-kind-icon">$operations</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="Transaction.html#_memo" class="tsd-kind-icon">_memo</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="Transaction.html#client" class="tsd-kind-icon">client</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="Transaction.html#createdAt" class="tsd-kind-icon">created<wbr>At</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="Transaction.html#createdTimestamp" class="tsd-kind-icon">created<wbr>Timestamp</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="Transaction.html#envelopeXdr" class="tsd-kind-icon">envelope<wbr>Xdr</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="Transaction.html#feeCharged" class="tsd-kind-icon">fee<wbr>Charged</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="Transaction.html#feeMetaXdr" class="tsd-kind-icon">fee<wbr>Meta<wbr>Xdr</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="Transaction.html#hash" class="tsd-kind-icon">hash</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="Transaction.html#id" class="tsd-kind-icon">id</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="Transaction.html#ledgerSequence" class="tsd-kind-icon">ledger<wbr>Sequence</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="Transaction.html#maxFee" class="tsd-kind-icon">max<wbr>Fee</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="Transaction.html#memoType" class="tsd-kind-icon">memo<wbr>Type</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="Transaction.html#operationCount" class="tsd-kind-icon">operation<wbr>Count</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="Transaction.html#pagingToken" class="tsd-kind-icon">paging<wbr>Token</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="Transaction.html#resultMetaXdr" class="tsd-kind-icon">result<wbr>Meta<wbr>Xdr</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="Transaction.html#resultXdr" class="tsd-kind-icon">result<wbr>Xdr</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="Transaction.html#signatures" class="tsd-kind-icon">signatures</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="Transaction.html#sourceAccountId" class="tsd-kind-icon">source<wbr>Account<wbr>Id</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="Transaction.html#sourceAccountSequence" class="tsd-kind-icon">source<wbr>Account<wbr>Sequence</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section ">
+							<h3>Accessors</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-get-signature tsd-parent-kind-class"><a href="Transaction.html#memo" class="tsd-kind-icon">memo</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section ">
+							<h3>Methods</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="Transaction.html#_patch" class="tsd-kind-icon">$patch</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="Transaction.html#getEffects" class="tsd-kind-icon">get<wbr>Effects</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="Transaction.html#getLedger" class="tsd-kind-icon">get<wbr>Ledger</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="Transaction.html#getOperations" class="tsd-kind-icon">get<wbr>Operations</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="Transaction.html#getPayment" class="tsd-kind-icon">get<wbr>Payment</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="Transaction.html#getSourceAccount" class="tsd-kind-icon">get<wbr>Source<wbr>Account</a></li>
+							</ul>
+						</section>
+					</div>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Constructors</h2>
+				<section class="tsd-panel tsd-member tsd-kind-constructor tsd-parent-kind-class">
+					<a name="constructor" class="tsd-anchor"></a>
+					<h3>constructor</h3>
+					<ul class="tsd-signatures tsd-kind-constructor tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">new <wbr>Transaction<span class="tsd-signature-symbol">(</span>client<span class="tsd-signature-symbol">: </span><a href="Client.html" class="tsd-signature-type" data-tsd-kind="Class">Client</a>, data<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">TransactionRecord</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="Transaction.html" class="tsd-signature-type" data-tsd-kind="Class">Transaction</a></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/PiNetwork-js/backend-client/blob/9eddd12/src/structures/ressources/stellar/Transaction.ts#L117">src/structures/ressources/stellar/Transaction.ts:117</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>client: <a href="Client.html" class="tsd-signature-type" data-tsd-kind="Class">Client</a></h5>
+								</li>
+								<li>
+									<h5>data: <span class="tsd-signature-type">TransactionRecord</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="Transaction.html" class="tsd-signature-type" data-tsd-kind="Class">Transaction</a></h4>
+						</li>
+					</ul>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Properties</h2>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="_effects" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> $effects</h3>
+					<div class="tsd-signature tsd-kind-icon">$effects<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">CallCollectionFunction</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">EffectRecord</span><span class="tsd-signature-symbol">&gt;</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/PiNetwork-js/backend-client/blob/9eddd12/src/structures/ressources/stellar/Transaction.ts#L115">src/structures/ressources/stellar/Transaction.ts:115</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Get the effects of the transaction.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="_operations" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> $operations</h3>
+					<div class="tsd-signature tsd-kind-icon">$operations<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">CallCollectionFunction</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">OperationRecord</span><span class="tsd-signature-symbol">&gt;</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/PiNetwork-js/backend-client/blob/9eddd12/src/structures/ressources/stellar/Transaction.ts#L110">src/structures/ressources/stellar/Transaction.ts:110</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Get the operations of the transaction.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="_memo" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> <span class="tsd-flag ts-flagOptional">Optional</span> _memo</h3>
+					<div class="tsd-signature tsd-kind-icon">_memo<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/PiNetwork-js/backend-client/blob/9eddd12/src/structures/ressources/stellar/Transaction.ts#L95">src/structures/ressources/stellar/Transaction.ts:95</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>The memo attached to the transaction (the payment id of the transaction if made using Pi Network SDK).</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="client" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagReadonly">Readonly</span> client</h3>
+					<div class="tsd-signature tsd-kind-icon">client<span class="tsd-signature-symbol">:</span> <a href="Client.html" class="tsd-signature-type" data-tsd-kind="Class">Client</a></div>
+					<aside class="tsd-sources">
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="createdAt" class="tsd-anchor"></a>
+					<h3>created<wbr>At</h3>
+					<div class="tsd-signature tsd-kind-icon">created<wbr>At<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Date</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/PiNetwork-js/backend-client/blob/9eddd12/src/structures/ressources/stellar/Transaction.ts#L40">src/structures/ressources/stellar/Transaction.ts:40</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>The transaction creation date.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="createdTimestamp" class="tsd-anchor"></a>
+					<h3>created<wbr>Timestamp</h3>
+					<div class="tsd-signature tsd-kind-icon">created<wbr>Timestamp<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/PiNetwork-js/backend-client/blob/9eddd12/src/structures/ressources/stellar/Transaction.ts#L45">src/structures/ressources/stellar/Transaction.ts:45</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>The transaction creation timestamp.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="envelopeXdr" class="tsd-anchor"></a>
+					<h3>envelope<wbr>Xdr</h3>
+					<div class="tsd-signature tsd-kind-icon">envelope<wbr>Xdr<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/PiNetwork-js/backend-client/blob/9eddd12/src/structures/ressources/stellar/Transaction.ts#L75">src/structures/ressources/stellar/Transaction.ts:75</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>A base64 encoded string of the raw TransactionEnvelope XDR struct for the transaction.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="feeCharged" class="tsd-anchor"></a>
+					<h3>fee<wbr>Charged</h3>
+					<div class="tsd-signature tsd-kind-icon">fee<wbr>Charged<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/PiNetwork-js/backend-client/blob/9eddd12/src/structures/ressources/stellar/Transaction.ts#L60">src/structures/ressources/stellar/Transaction.ts:60</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>The fee (in micropi) paid by the source account to apply this transaction to the ledger.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="feeMetaXdr" class="tsd-anchor"></a>
+					<h3>fee<wbr>Meta<wbr>Xdr</h3>
+					<div class="tsd-signature tsd-kind-icon">fee<wbr>Meta<wbr>Xdr<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/PiNetwork-js/backend-client/blob/9eddd12/src/structures/ressources/stellar/Transaction.ts#L90">src/structures/ressources/stellar/Transaction.ts:90</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>A base64 encoded string of the raw LedgerEntryChanges XDR struct produced by taking fees for the transaction.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="hash" class="tsd-anchor"></a>
+					<h3>hash</h3>
+					<div class="tsd-signature tsd-kind-icon">hash<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/PiNetwork-js/backend-client/blob/9eddd12/src/structures/ressources/stellar/Transaction.ts#L30">src/structures/ressources/stellar/Transaction.ts:30</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>A hex-encoded SHA-256 hash of the transaction’s XDR-encoded form.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="id" class="tsd-anchor"></a>
+					<h3>id</h3>
+					<div class="tsd-signature tsd-kind-icon">id<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<p>Implementation of <a href="../interfaces/Identifiable.html">Identifiable</a>.<a href="../interfaces/Identifiable.html#id">id</a></p>
+						<ul>
+							<li>Defined in <a href="https://github.com/PiNetwork-js/backend-client/blob/9eddd12/src/structures/ressources/stellar/Transaction.ts#L20">src/structures/ressources/stellar/Transaction.ts:20</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>The id of the transaction.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="ledgerSequence" class="tsd-anchor"></a>
+					<h3>ledger<wbr>Sequence</h3>
+					<div class="tsd-signature tsd-kind-icon">ledger<wbr>Sequence<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/PiNetwork-js/backend-client/blob/9eddd12/src/structures/ressources/stellar/Transaction.ts#L35">src/structures/ressources/stellar/Transaction.ts:35</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>The sequence number of the ledger that the transaction was included in.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="maxFee" class="tsd-anchor"></a>
+					<h3>max<wbr>Fee</h3>
+					<div class="tsd-signature tsd-kind-icon">max<wbr>Fee<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/PiNetwork-js/backend-client/blob/9eddd12/src/structures/ressources/stellar/Transaction.ts#L65">src/structures/ressources/stellar/Transaction.ts:65</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>The maximum fee (in micropi) that the source account was willing to pay.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="memoType" class="tsd-anchor"></a>
+					<h3>memo<wbr>Type</h3>
+					<div class="tsd-signature tsd-kind-icon">memo<wbr>Type<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">MemoType</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/PiNetwork-js/backend-client/blob/9eddd12/src/structures/ressources/stellar/Transaction.ts#L100">src/structures/ressources/stellar/Transaction.ts:100</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>The type of memo. Potential values include <code>none</code>, <code>id</code>, <code>text</code>, <code>hash</code> and <code>return</code>.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="operationCount" class="tsd-anchor"></a>
+					<h3>operation<wbr>Count</h3>
+					<div class="tsd-signature tsd-kind-icon">operation<wbr>Count<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/PiNetwork-js/backend-client/blob/9eddd12/src/structures/ressources/stellar/Transaction.ts#L70">src/structures/ressources/stellar/Transaction.ts:70</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>The number of operations contained within the transaction.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="pagingToken" class="tsd-anchor"></a>
+					<h3>paging<wbr>Token</h3>
+					<div class="tsd-signature tsd-kind-icon">paging<wbr>Token<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/PiNetwork-js/backend-client/blob/9eddd12/src/structures/ressources/stellar/Transaction.ts#L25">src/structures/ressources/stellar/Transaction.ts:25</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>A cursor value for use in pagination.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="resultMetaXdr" class="tsd-anchor"></a>
+					<h3>result<wbr>Meta<wbr>Xdr</h3>
+					<div class="tsd-signature tsd-kind-icon">result<wbr>Meta<wbr>Xdr<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/PiNetwork-js/backend-client/blob/9eddd12/src/structures/ressources/stellar/Transaction.ts#L85">src/structures/ressources/stellar/Transaction.ts:85</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>A base64 encoded string of the raw TransactionMeta XDR struct for the transaction.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="resultXdr" class="tsd-anchor"></a>
+					<h3>result<wbr>Xdr</h3>
+					<div class="tsd-signature tsd-kind-icon">result<wbr>Xdr<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/PiNetwork-js/backend-client/blob/9eddd12/src/structures/ressources/stellar/Transaction.ts#L80">src/structures/ressources/stellar/Transaction.ts:80</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>A base64 encoded string of the raw TransactionResult XDR struct for the transaction.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="signatures" class="tsd-anchor"></a>
+					<h3>signatures</h3>
+					<div class="tsd-signature tsd-kind-icon">signatures<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/PiNetwork-js/backend-client/blob/9eddd12/src/structures/ressources/stellar/Transaction.ts#L105">src/structures/ressources/stellar/Transaction.ts:105</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>The signatures used to sign the transaction.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="sourceAccountId" class="tsd-anchor"></a>
+					<h3>source<wbr>Account<wbr>Id</h3>
+					<div class="tsd-signature tsd-kind-icon">source<wbr>Account<wbr>Id<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/PiNetwork-js/backend-client/blob/9eddd12/src/structures/ressources/stellar/Transaction.ts#L50">src/structures/ressources/stellar/Transaction.ts:50</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>The account that originates the transaction.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="sourceAccountSequence" class="tsd-anchor"></a>
+					<h3>source<wbr>Account<wbr>Sequence</h3>
+					<div class="tsd-signature tsd-kind-icon">source<wbr>Account<wbr>Sequence<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/PiNetwork-js/backend-client/blob/9eddd12/src/structures/ressources/stellar/Transaction.ts#L55">src/structures/ressources/stellar/Transaction.ts:55</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>The source account’s sequence number that the transaction consumed.</p>
+						</div>
+					</div>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Accessors</h2>
+				<section class="tsd-panel tsd-member tsd-kind-get-signature tsd-parent-kind-class">
+					<a name="memo" class="tsd-anchor"></a>
+					<h3>memo</h3>
+					<ul class="tsd-signatures tsd-kind-get-signature tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> memo<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/PiNetwork-js/backend-client/blob/9eddd12/src/structures/ressources/stellar/Transaction.ts#L148">src/structures/ressources/stellar/Transaction.ts:148</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>The memo of the transaction. If the transaction was made using the Pi Network SDK, the memo is equal to the platform payment id, so it retrieve the platform payment, then the memo from it.</p>
+								</div>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></h4>
+						</li>
+					</ul>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Methods</h2>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="_patch" class="tsd-anchor"></a>
+					<h3>$patch</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">$patch<span class="tsd-signature-symbol">(</span>data<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">TransactionRecord</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/PiNetwork-js/backend-client/blob/9eddd12/src/structures/ressources/stellar/Transaction.ts#L121">src/structures/ressources/stellar/Transaction.ts:121</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>data: <span class="tsd-signature-type">TransactionRecord</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="getEffects" class="tsd-anchor"></a>
+					<h3>get<wbr>Effects</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Effects<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">EffectManager</span><span class="tsd-signature-symbol">&lt;</span><a href="Effect.html" class="tsd-signature-type" data-tsd-kind="Class">Effect</a><span class="tsd-signature-symbol">&lt;</span><a href="../enums/EffectTypeNames.html" class="tsd-signature-type" data-tsd-kind="Enumeration">EffectTypeNames</a><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">EffectType</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/PiNetwork-js/backend-client/blob/9eddd12/src/structures/ressources/stellar/Transaction.ts#L208">src/structures/ressources/stellar/Transaction.ts:208</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Get the effects of the transaction.</p>
+								</div>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">EffectManager</span><span class="tsd-signature-symbol">&lt;</span><a href="Effect.html" class="tsd-signature-type" data-tsd-kind="Class">Effect</a><span class="tsd-signature-symbol">&lt;</span><a href="../enums/EffectTypeNames.html" class="tsd-signature-type" data-tsd-kind="Enumeration">EffectTypeNames</a><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">EffectType</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></h4>
+							<p>A manager for the transaction effects.</p>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="getLedger" class="tsd-anchor"></a>
+					<h3>get<wbr>Ledger</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Ledger<span class="tsd-signature-symbol">(</span>forceUpdate<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="Ledger.html" class="tsd-signature-type" data-tsd-kind="Class">Ledger</a><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/PiNetwork-js/backend-client/blob/9eddd12/src/structures/ressources/stellar/Transaction.ts#L180">src/structures/ressources/stellar/Transaction.ts:180</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Get the ledger the trasaction belongs to.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>forceUpdate: <span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol"> = false</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>If set to <code>true</code>, it will not check in the cache and directly make a request to retrieve the ledger instead.</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="Ledger.html" class="tsd-signature-type" data-tsd-kind="Class">Ledger</a><span class="tsd-signature-symbol">&gt;</span></h4>
+							<p>The ledger the trasaction belongs to.</p>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="getOperations" class="tsd-anchor"></a>
+					<h3>get<wbr>Operations</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Operations<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="OperationManager.html" class="tsd-signature-type" data-tsd-kind="Class">OperationManager</a><span class="tsd-signature-symbol">&lt;</span><a href="Operation.html" class="tsd-signature-type" data-tsd-kind="Class">Operation</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">OperationResponseType</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">OperationResponseTypeI</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/PiNetwork-js/backend-client/blob/9eddd12/src/structures/ressources/stellar/Transaction.ts#L189">src/structures/ressources/stellar/Transaction.ts:189</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Get the operations of the transaction.</p>
+								</div>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="OperationManager.html" class="tsd-signature-type" data-tsd-kind="Class">OperationManager</a><span class="tsd-signature-symbol">&lt;</span><a href="Operation.html" class="tsd-signature-type" data-tsd-kind="Class">Operation</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">OperationResponseType</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">OperationResponseTypeI</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></h4>
+							<p>A manager for the transaction operations.</p>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="getPayment" class="tsd-anchor"></a>
+					<h3>get<wbr>Payment</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Payment<span class="tsd-signature-symbol">(</span>forceUpdate<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><a href="Payment.html" class="tsd-signature-type" data-tsd-kind="Class">Payment</a><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/PiNetwork-js/backend-client/blob/9eddd12/src/structures/ressources/stellar/Transaction.ts#L164">src/structures/ressources/stellar/Transaction.ts:164</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Get the platform payment of the transaction if made using Pi Network SDK.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>forceUpdate: <span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol"> = false</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>If set to <code>true</code>, it will not check in the cache and directly make a request to retrieve the platform payment instead.</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><a href="Payment.html" class="tsd-signature-type" data-tsd-kind="Class">Payment</a><span class="tsd-signature-symbol">&gt;</span></h4>
+							<p>The platform payment of the transaction if made using Pi Network SDK.</p>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="getSourceAccount" class="tsd-anchor"></a>
+					<h3>get<wbr>Source<wbr>Account</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Source<wbr>Account<span class="tsd-signature-symbol">(</span>forceUpdate<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="Account.html" class="tsd-signature-type" data-tsd-kind="Class">Account</a><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/PiNetwork-js/backend-client/blob/9eddd12/src/structures/ressources/stellar/Transaction.ts#L228">src/structures/ressources/stellar/Transaction.ts:228</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Get the source account of the transaction.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>forceUpdate: <span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol"> = false</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>If set to <code>true</code>, it will not check in the cache and directly make a request to retrieve the source account instead.</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="Account.html" class="tsd-signature-type" data-tsd-kind="Class">Account</a><span class="tsd-signature-symbol">&gt;</span></h4>
+							<p>The source account of the transaction.</p>
+						</li>
+					</ul>
+				</section>
+			</section>
+		</div>
+		<div class="col-4 col-menu menu-sticky-wrap menu-highlight">
+			<nav class="tsd-navigation primary">
+				<ul>
+					<li class=" ">
+						<a href="../modules.html">Exports</a>
+					</li>
+				</ul>
+			</nav>
+			<nav class="tsd-navigation secondary menu-sticky">
+				<ul class="before-current">
+				</ul>
+				<ul class="current">
+					<li class="current tsd-kind-class">
+						<a href="Transaction.html" class="tsd-kind-icon">Transaction</a>
+						<ul>
+							<li class=" tsd-kind-constructor tsd-parent-kind-class">
+								<a href="Transaction.html#constructor" class="tsd-kind-icon">constructor</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+								<a href="Transaction.html#_effects" class="tsd-kind-icon">$effects</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+								<a href="Transaction.html#_operations" class="tsd-kind-icon">$operations</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+								<a href="Transaction.html#_memo" class="tsd-kind-icon">_memo</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="Transaction.html#client" class="tsd-kind-icon">client</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="Transaction.html#createdAt" class="tsd-kind-icon">created<wbr>At</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="Transaction.html#createdTimestamp" class="tsd-kind-icon">created<wbr>Timestamp</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="Transaction.html#envelopeXdr" class="tsd-kind-icon">envelope<wbr>Xdr</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="Transaction.html#feeCharged" class="tsd-kind-icon">fee<wbr>Charged</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="Transaction.html#feeMetaXdr" class="tsd-kind-icon">fee<wbr>Meta<wbr>Xdr</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="Transaction.html#hash" class="tsd-kind-icon">hash</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="Transaction.html#id" class="tsd-kind-icon">id</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="Transaction.html#ledgerSequence" class="tsd-kind-icon">ledger<wbr>Sequence</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="Transaction.html#maxFee" class="tsd-kind-icon">max<wbr>Fee</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="Transaction.html#memoType" class="tsd-kind-icon">memo<wbr>Type</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="Transaction.html#operationCount" class="tsd-kind-icon">operation<wbr>Count</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="Transaction.html#pagingToken" class="tsd-kind-icon">paging<wbr>Token</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="Transaction.html#resultMetaXdr" class="tsd-kind-icon">result<wbr>Meta<wbr>Xdr</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="Transaction.html#resultXdr" class="tsd-kind-icon">result<wbr>Xdr</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="Transaction.html#signatures" class="tsd-kind-icon">signatures</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="Transaction.html#sourceAccountId" class="tsd-kind-icon">source<wbr>Account<wbr>Id</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="Transaction.html#sourceAccountSequence" class="tsd-kind-icon">source<wbr>Account<wbr>Sequence</a>
+							</li>
+							<li class=" tsd-kind-get-signature tsd-parent-kind-class">
+								<a href="Transaction.html#memo" class="tsd-kind-icon">memo</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="Transaction.html#_patch" class="tsd-kind-icon">$patch</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="Transaction.html#getEffects" class="tsd-kind-icon">get<wbr>Effects</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="Transaction.html#getLedger" class="tsd-kind-icon">get<wbr>Ledger</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="Transaction.html#getOperations" class="tsd-kind-icon">get<wbr>Operations</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="Transaction.html#getPayment" class="tsd-kind-icon">get<wbr>Payment</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="Transaction.html#getSourceAccount" class="tsd-kind-icon">get<wbr>Source<wbr>Account</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<ul class="after-current">
+				</ul>
+			</nav>
+		</div>
+	</div>
+</div>
+<footer class="with-border-bottom">
+	<div class="container">
+		<h2>Legend</h2>
+		<div class="tsd-legend-group">
+			<ul class="tsd-legend">
+				<li class="tsd-kind-constructor tsd-parent-kind-class"><span class="tsd-kind-icon">Constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-class"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class"><span class="tsd-kind-icon">Method</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-constructor tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited method</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-interface"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-interface"><span class="tsd-kind-icon">Method</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected method</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private method</span></li>
+			</ul>
+		</div>
+	</div>
+</footer>
+<div class="container tsd-generator">
+	<p>Generated using <a href="https://typedoc.org/" target="_blank">TypeDoc</a></p>
+</div>
+<div class="overlay"></div>
+<script src="../assets/js/main.js"></script>
+</body>
+</html>
