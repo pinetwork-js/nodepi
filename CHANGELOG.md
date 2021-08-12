@@ -1,5 +1,12 @@
 # Changelog
 
+### [0.1.2](https://www.github.com/PiNetwork-js/nodepi/compare/v0.1.1...v0.1.2) (2021-08-12)
+
+
+### Bug Fixes
+
+* export ClientOptions ([5d2c182](https://www.github.com/PiNetwork-js/nodepi/commit/5d2c1821fbba6042704c871c25877e087b4bded1))
+
 ### [0.1.1](https://www.github.com/PiNetwork-js/nodepi/compare/v0.1.0...v0.1.1) (2021-08-12)
 
 
