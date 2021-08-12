@@ -1,5 +1,5 @@
 {
-	"name": "@pinetwork-js/backend-client",
+	"name": "@pinetwork-js/nodepi",
 	"description": "A backend client for interacting with the Pi Network Platform and Stellar APIs.",
 	"version": "0.0.30",
 	"main": "build/index.js",
@@ -19,11 +19,11 @@
 	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/PiNetwork-js/backend-client.git"
+		"url": "git+https://github.com/PiNetwork-js/nodepi.git"
 	},
-	"homepage": "https://github.com/PiNetwork-js/backend-client#readme",
+	"homepage": "https://github.com/PiNetwork-js/nodepi#readme",
 	"bugs": {
-		"url": "https://github.com/PiNetwork-js/backend-client/issues"
+		"url": "https://github.com/PiNetwork-js/nodepi/issues"
 	},
 	"dependencies": {
 		"@pinetwork-js/api-typing": "^0.2.3",
@@ -62,5 +62,12 @@
 	},
 	"files": [
 		"build"
+	],
+	"keywords": [
+		"pi",
+		"Pi Network",
+		"nodepi",
+		"minepi",
+		"pinetwork-js"
 	]
 }
