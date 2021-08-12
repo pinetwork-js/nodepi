@@ -13,7 +13,7 @@
     "lint-fix": "yarn lint --fix",
     "format": "prettier . --write",
     "doc:gen": "yarn typedoc src/index.ts",
-    "doc:deploy": "gh-pages -d build",
+    "doc:deploy": "gh-pages -d docs",
     "mrm": "mrm --preset @pinetwork-js/mrm-preset"
   },
   "packageManager": "yarn@3.0.0",
