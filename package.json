@@ -1,7 +1,7 @@
 {
   "name": "@pinetwork-js/nodepi",
   "description": "A backend client for interacting with the Pi Network Platform and Stellar APIs.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "build/index.js",
   "types": "build/index.d.ts",
   "prettier": "@pinetwork-js/prettier-config",
