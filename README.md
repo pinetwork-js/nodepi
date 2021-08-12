@@ -1,6 +1,6 @@
 # Nodepi
 
-[![GitHub](https://img.shields.io/github/license/PiNetwork-js/nodepi)](https://github.com/PiNetwork-js/nodepi/blob/main/LICENSE.md)
+[![GitHub](https://img.shields.io/github/license/PiNetwork-js/nodepi)](https://github.com/PiNetwork-js/nodepi/blob/main/LICENSE)
 [![npm](https://img.shields.io/npm/v/@pinetwork-js/nodepi?color=crimson&logo=npm)](https://www.npmjs.com/package/@pinetwork-js/nodepi)
 
 A backend client for interacting with the Pi Network Platform and Stellar APIs.
